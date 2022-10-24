@@ -3,6 +3,8 @@ const buttons = document.getElementById( 'buttons' );
 let colorIndex = 0;
 let intervalId = null;
 
+
+
 const trafficLight = ( event ) => {
     stopAutomatic();
     turnOn[event.target.id]();
