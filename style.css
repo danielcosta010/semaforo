@@ -12,6 +12,16 @@ main {
   height: 100vh;
   justify-content: center;
 }
+img {
+  width: 50px;
+}
 .button {
+  background-color: rgb(43, 117, 117);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px;
   width: 80px;
+
 }

@@ -3,8 +3,6 @@ const buttons = document.getElementById( 'buttons' );
 let colorIndex = 0;
 let intervalId = null;
 
-
-
 const trafficLight = ( event ) => {
     stopAutomatic();
     turnOn[event.target.id]();
@@ -29,5 +27,4 @@ const turnOn = {
     'green':    () => img.src = './img/verde.png',
     'automatic': () => intervalId = setInterval( changeColor, 1000 )
 }
-
 buttons.addEventListener('click', trafficLight );
